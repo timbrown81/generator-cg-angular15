@@ -1,8 +1,7 @@
 import * as angular from 'angular';
 
 angular.module('<%= _s.camelize(name) %>', [
-    require('angular-ui-bootstrap'), 
-    require('<%= routerModuleName %>'), 
+    require('<%= routerModuleName %>'),
     require('angular-animate')
 ]);
 <% if (!uirouter) { %>
